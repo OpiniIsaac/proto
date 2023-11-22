@@ -1,0 +1,45 @@
+header {
+
+  padding: 0.5em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+     text-decoration: none;
+     padding: .2em;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav__item {
+  margin-right: 1.2em;
+}
+.nav__link {
+  color: burlywood;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav__link--button {
+  background: rgb(59, 59, 123);
+color: white;
+  padding: 0.5em 1em;
+  border-radius: 10em;
+}
+nav__list--primary{
+     margin: 0 auto;
+}
+
+.nav__link:hover {
+  color: brown;
+}
